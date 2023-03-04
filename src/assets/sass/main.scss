@@ -1,0 +1,28 @@
+.header {
+    background-color: $header-bgColor;
+    color: $header-fontColor;
+}
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: $article-bgColor;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .all-browsers > h1 {
+      color: #FFFFFF;
+  }
+  
+  .browser {
+    background: #FFFFFF;
+    color: #000000;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
