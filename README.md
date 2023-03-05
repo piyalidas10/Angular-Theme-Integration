@@ -3,6 +3,8 @@
 
 Run "npm start"
 
+![Angular Theme output](output.png)
+
 we can lazy load CSS files from angular.json
 
 Normally if you generate an Angular app, you’ll get a styles.css or styles.scss file (based on whether you choose to use some CSS precompiler or not). This style gets directly compiled and injected into your index.html. In fact, if you open the angular.json file, you’ll find a configuration like :
