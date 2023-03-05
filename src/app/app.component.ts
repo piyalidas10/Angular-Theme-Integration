@@ -15,7 +15,7 @@ export class AppComponent {
     private themeService: ThemeService,
     private renderer2: Renderer2,
   ) {
-    this.themeArr = [Theme.LIGHT, Theme.DARK];
+    this.themeArr = [Theme.RED, Theme.BLUE, Theme.BLACK];
     console.log('themeArr => ', this.themeArr);
   }
 
@@ -24,7 +24,7 @@ export class AppComponent {
   }
 
   initialize() {
-    this.themeService.setTheme(Theme.LIGHT, this.renderer2);
+    this.themeService.setTheme(Theme.BLACK, this.renderer2);
   }
 
   changeTheme(theme: Theme) {

@@ -1,11 +1,13 @@
+@import "./_variables.scss";
 .header {
     background-color: $header-bgColor;
     color: $header-fontColor;
+    margin-bottom: 20px;
 }
 .all-browsers {
-    margin: 0;
+  margin-top: 20px;
     padding: 5px;
-    background-color: $article-bgColor;
+    background-color: $section-bgColor;
   }
   
   .all-browsers > h1, .browser {
@@ -14,12 +16,12 @@
   }
 
   .all-browsers > h1 {
-      color: #FFFFFF;
+      color: $section-fontColor;
   }
   
   .browser {
-    background: #FFFFFF;
-    color: #000000;
+    background:$article-bgColor;
+    color: $article-fontColor;
   }
   
   .browser > h2, p {

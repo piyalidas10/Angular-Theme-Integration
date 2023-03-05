@@ -15,7 +15,9 @@ import { ThemeService } from './theme/theme.service';
     CommonModule,
     HttpClientModule
   ],
-  providers: [ThemeService],
+  providers: [
+    ThemeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

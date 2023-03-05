@@ -30,10 +30,26 @@
 						"tsConfig": "tsconfig.app.json",
 						"assets": [
 							"src/favicon.ico",
-							"src/assets"
+							"src/assets/images"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/styles.scss",
+							"src/assets/styles/main.scss",
+							{
+								"input": "src/assets/themeCSS/black.scss",
+								"bundleName": "blue",
+								"inject": false
+							},
+							{
+								"input": "src/assets/themeCSS/blue.scss",
+								"bundleName": "blue",
+								"inject": false
+							},
+							{
+								"input": "src/assets/themeCSS/red.scss",
+								"bundleName": "red",
+								"inject": false
+							}
 						],
 						"scripts": []
 					},

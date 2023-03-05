@@ -1,0 +1,24 @@
+$header-bgColor: #070969;
+$header-fontColor: #FFFFFF;
+$section-bgColor: #DDDDDD;
+$section-fontColor: #070969;
+$article-bgColor: #FFFFFF;
+$article-fontColor: #000000;
+
+.header {
+  background-color: $header-bgColor;
+  color: $header-fontColor;
+}
+
+.all-browsers {
+  background-color: $section-bgColor;
+
+  &>h1 {
+    color: $section-fontColor;
+  }
+}
+
+.browser {
+  background: $article-bgColor;
+  color: $article-fontColor;
+}
